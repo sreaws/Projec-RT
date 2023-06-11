@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1686272596",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Sreaws\\Project-RT\\venv\\Scripts\\mlagents-learn config/massCollect.yaml --time-scale 1 --run-id=Test15",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1686272610"
+    },
+    "total": 13.963299800000001,
+    "count": 1,
+    "self": 0.0047303000000020745,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05754409999999999,
+            "count": 1,
+            "self": 0.05754409999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 13.9010254,
+            "count": 1,
+            "self": 0.00035260000000114644,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.9006578,
+                    "count": 1,
+                    "self": 13.9006578
+                },
+                "trainer_threads": {
+                    "total": 1.1000000004202093e-06,
+                    "count": 1,
+                    "self": 1.1000000004202093e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.3899999999011925e-05,
+                    "count": 1,
+                    "self": 1.3899999999011925e-05
+                }
+            }
+        }
+    }
+}

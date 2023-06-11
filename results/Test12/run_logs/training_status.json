@@ -1,0 +1,29 @@
+{
+    "YumYum": {
+        "checkpoints": [
+            {
+                "steps": 1767,
+                "file_path": "results\\Test12\\YumYum\\YumYum-1767.onnx",
+                "reward": -7.0,
+                "creation_time": 1686271285.8539853,
+                "auxillary_file_paths": [
+                    "results\\Test12\\YumYum\\YumYum-1767.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1767,
+            "file_path": "results\\Test12\\YumYum.onnx",
+            "reward": -7.0,
+            "creation_time": 1686271285.8539853,
+            "auxillary_file_paths": [
+                "results\\Test12\\YumYum\\YumYum-1767.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
